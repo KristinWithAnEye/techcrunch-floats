@@ -1,0 +1,244 @@
+/******************************************
+/* GLOBAL STYLES
+/*******************************************/
+* {
+    box-sizing: border-box;
+  }
+  
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+  
+.clear {
+    clear: both;
+}
+
+/******************************************
+/* TEXT STYLING
+/*******************************************/
+html {
+    font-size: 62.5%;
+}
+
+header, 
+main, 
+body > section {
+    font-family: "Nunito", sans-serif;
+}
+
+header > nav ul li {
+    list-style: none;
+}
+
+header a,
+h1 > a,
+aside > section h4 *,
+.latest h4 *{
+    text-decoration: none;
+}
+
+h1 > a,
+aside > section h4 *,
+.latest h4 * {
+    color: black;
+    font-weight: bold;
+}
+
+.join {
+    font-size: 1.2rem;
+}
+
+nav > ul li a {
+    font-size: 1.4rem;
+    color: rgba(136, 136, 136, 1);
+}
+
+.login,
+form {
+    color: rgba(136, 136, 136, 1);
+}
+
+form {
+    font-size: 1.4rem;
+}
+
+form > button {
+    font-size: 0.8rem;
+}
+
+aside > section h4 *,
+.latest h4 {
+    font-size: 1.6rem;
+}
+
+.latest-one span,
+.latest-four span,
+.latest-seven span {
+    font-weight: bold;
+}
+
+.latest-one p,
+.latest-two,
+.latest-four p,
+.latest-five,
+.latest-seven p,
+.latest-eight {
+    font-weight: lighter;
+}
+
+/******************************************
+/* HEADER
+/*******************************************/
+header {
+    float: left;
+    margin-left: 1%;
+    margin-bottom: 8%;
+}
+
+header > img {
+    width: 25%;
+    margin-left: -3%;
+}
+
+h5 {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.join {
+    color: rgba(243, 195, 70, 1);
+    font-weight: bold;
+}
+
+form {
+    margin-top: 10%;
+}
+
+nav > ul li a {
+    margin-left: -31%;
+}
+
+nav > ul li {
+    margin-bottom: 5%;
+}
+
+nav > ul li:first-of-type {
+    margin-top: -6%;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+.main {
+    float: left;
+    margin-right: -8%;
+}
+
+.main h1 {
+    margin-left: -8%;
+    margin-bottom: 1%;
+    width: 80%;
+}
+
+.main span {
+    margin-left: -8%;
+    margin-bottom: 1%;
+}
+
+.main img {
+    width: 450px;
+    height: 250px;
+    margin-left: -16%;
+    margin-bottom: -49.5%;
+}
+
+/******************************************
+/* ASIDE
+/*******************************************/
+aside {
+    float: left;
+}
+
+aside > section:not(:last-child) {
+    border-bottom: 2px solid rgba(238, 238, 238, 1);
+}
+
+aside > section > h4 {
+    width: 38%;
+    margin-bottom: 1%;
+}
+
+.tcplus {
+    width: 5%;
+    margin-bottom: -2.5%;
+    margin-left: -1%;
+}
+
+/******************************************
+/* SECTION
+/*******************************************/
+.latest,
+.latest-four,
+.latest-seven {
+    clear: both;
+}
+
+.latest {
+    margin-left: 11%;
+}
+
+.latest-one,
+.latest-four,
+.latest-seven {
+    float: left;
+    width: 15%;
+    margin-right: 5%;
+}
+
+.latest-one h4,
+.latest-four h4,
+.latest-seven h4 {
+    margin-bottom: 1.5%;
+}
+
+.latest-one p,
+.latest-four p,
+.latest-seven p {
+    margin-top: 1.5%;
+}
+
+.latest-two,
+.latest-five,
+.latest-eight {
+    float: left;
+    width: 22%;
+    margin-top: 1%;
+}
+
+.latest-three,
+.latest-six,
+.latest-nine {
+    float: left;
+    width: 25%;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.latest-three img,
+.latest-six img,
+.latest-nine img {
+    width: 220px;
+    height: 120px;
+}
+
+.latest-four img {
+    width: 20%; 
+    margin-bottom: -13%;
+    margin-left: -3%;
+}
